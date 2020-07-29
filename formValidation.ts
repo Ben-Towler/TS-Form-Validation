@@ -44,7 +44,6 @@ if (form) {
 
   form.addEventListener('change', function (e: Event){
     const test = formValidation.validateFields([e.target as typeof formElements]);
-    console.log(test);
   });
 }
 
